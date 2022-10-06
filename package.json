@@ -1,0 +1,14 @@
+{
+  "name": "widec",
+  "version": "1.0.0",
+  "description": "Prototype fore 2022 bigkinds",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "keywords": [
+    "prototype"
+  ],
+  "author": "SeokHyeon Hong, Yewon Seo, Subin Hong, Haejun Lee",
+  "license": "ISC"
+}
