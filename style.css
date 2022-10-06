@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: Arial, "Helcetica Neue", 
+    Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    width: 80%;
+}
+
+#nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-size: cover;
+    background-color: #fff;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 20px 0px;
+    width: 80%;
+    border-bottom: solid 1px #000;
+}
+
+#nav .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    align-items: left;
+}
+
+#nav .navBar a{
+    float: left;
+    display: block;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+    align-items: center;
+    text-align: center;
+}
+
+#nav .navBar a:not(:last-child){
+    margin-right: 30px;
+}
+
+#nav .navBar a:hover{
+    background: rgb(160, 184, 255);
+}
+
+
+#info .button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:rgb(98, 137, 255);
+}
+
+#info .button:hover{
+    background: blue;
+    color: #fff;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+#info{
+    width: 100%;
+}
+
+#info h1{
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+#info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color:rgb(0, 0, 0);
+}
+
+#form{
+    min-height: 100vh;
+    background-color: blue;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.form-group{
+    width: 60%;
+
+}
+
+#result{
+    min-height: 100vh;
+}
+
+.form-group{
+    margin: 20px;
+}
+
+.form-group input{
+    width: 100%;
+}

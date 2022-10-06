@@ -2,23 +2,58 @@
 <html>
 <head>
     <link href="style.css" type="text/css" rel="stylesheet"/>
-    <title>
-        Cwide
-    </title>    
+    <script src="https://kit.fontawesome.com/333951f9c3.js" crossorigin="anonymous"></script>
+    <title>Cwide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset = "utf-8">
     <link rel="icon" type="image/x-icon" href="img/favicon.jpg"/>
 </head>
+
 <body>
+    <a name="top"></a>
     <div id = "nav">
-        this is navigation bar
+        <a href="#" class="logo">Cwide</a>
+        <div class="navBar">
+            <a href="#top">Home</a>
+            <a href="#info">about us</a>
+            <a href="#form">experience anti-polarizing news recommendation service</a>
+            <a href="#contact">contact us</a>
+        </div>
     </div>
-    <div id = "form">
-        this is form
+    <div id = "info">
+        <h1>ㅤ<br>ㅤ</h1>
+        <p>뉴스 빅데이터 해커톤 공공서비스 부문의 팀 'Cwide'입니다.<br>우리는 정보의 개인화를 방지하고 당신의 시야를 넓힐 반극단화 뉴스 추천 서비스를 제공합니다.</p>
+        <a href = "#form" class = "button">Let's experience our services!</a>
     </div>
-    <div id="submit">
-        this is submit section
+    <div id="form">
+        <div class="form-group">
+            <label>이름</label>
+            <input type="text" name="username" placeholder="이름을 입력하세요">
+        </div>
+        <div class="form-group">
+            <input type="radio" name="gender" value="male">
+            <label>남성</label>
+        </div>
+        <div class="form-group">
+            <input type="radio" name="gender" value="female">
+            <label>여성</label>
+        </div>
+        <div class="form-group">
+            <input type="radio" name="gender" value="non-binary">
+            <label>논바이너리</label>
+        </div>
+        <div class="form-group">
+            <label>나이</label>
+            <input type="text" name="age" placeholder="만 나이를 입력하세요">
+        </div>
+        <div class="form-group">
+            <input type="submit" name="submit">
+        </div>
     </div>
     <div id="result">
         this is result
+    </div>
+    <div id="contact">
+        <p>팀 대표 홍석현<br>이메일: jerryhong@gmail.com<br>전화번호: 010-0000-0000</p>
     </div>
 </body>
 </html>
