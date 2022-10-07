@@ -67,6 +67,7 @@ body{
 
 #info{
     width: 100%;
+    padding: 24px 15px;
 }
 
 #info h1{
@@ -89,7 +90,6 @@ body{
 #form{
     background-color: blue;
     color: #fff;
-    margin-top: 50px;
 }
 
 #form .form-contents{
@@ -200,5 +200,6 @@ input[type="range"]:focus::-moz-range-thumb{
 
 #result{
     min-height: 100vh;
+    padding: 24px 15px;
 }
 
