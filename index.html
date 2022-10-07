@@ -22,31 +22,35 @@
     <div id = "info">
         <h1>ㅤ<br>ㅤ</h1>
         <p>뉴스 빅데이터 해커톤 공공서비스 부문의 팀 'Cwide'입니다.<br>우리는 정보의 개인화를 방지하고 당신의 시야를 넓힐 반극단화 뉴스 추천 서비스를 제공합니다.</p>
-        <a href = "#form" class = "button">Let's experience our services!</a>
     </div>
     <div id="form">
+        <form class="form-contents">
+        <h2>ㅤFILL THIS FORMㅤ</h2>
         <div class="form-group">
             <label>이름</label>
-            <input type="text" name="username" placeholder="이름을 입력하세요">
+            <input type="text" name="username" placeholder="이름을 입력하세요" required>
         </div>
         <div class="form-group">
-            <input type="radio" name="gender" value="male">
-            <label>남성</label>
-        </div>
-        <div class="form-group">
-            <input type="radio" name="gender" value="female">
-            <label>여성</label>
-        </div>
-        <div class="form-group">
-            <input type="radio" name="gender" value="non-binary">
-            <label>논바이너리</label>
+            <P><input type="radio" name="gender" value="male">
+            <label>남성</label></p>
+            <P><input type="radio" name="gender" value="female">
+            <label>여성</label></P>
+            <p><input type="radio" name="gender" value="non-binary">
+            <label>논바이너리</label></p>
         </div>
         <div class="form-group">
             <label>나이</label>
-            <input type="text" name="age" placeholder="만 나이를 입력하세요">
+            <input type="text" name="age" placeholder="만 나이를 입력하세요" required>
         </div>
         <div class="form-group">
-            <input type="submit" name="submit">
+            <div class="labels">
+                <label name="label-left">진보</label><label name="label-right">보수</label>
+            </div>
+            <input type="range" name="ideology" min="0" max="100">
+        </div>
+        <div class="form-group">
+            <input type="submit" name="submit" value="submit">
+        </div>
         </div>
     </div>
     <div id="result">

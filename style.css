@@ -6,7 +6,7 @@
 
 body{
     margin: auto;
-    font-family: Arial, "Helcetica Neue", 
+    font-family: Arial, "Helcetica Neue",
     Helvetica, sans-serif;
     font-size: 17px;
     color: rgb(0, 0, 0);
@@ -62,25 +62,7 @@ body{
 }
 
 #nav .navBar a:hover{
-    background: rgb(160, 184, 255);
-}
-
-
-#info .button{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color:rgb(98, 137, 255);
-}
-
-#info .button:hover{
-    background: blue;
-    color: #fff;
-    transition: 0.3s;
-    transition-property: background;
+    background: rgb(166, 166, 255);
 }
 
 #info{
@@ -105,25 +87,118 @@ body{
 }
 
 #form{
-    min-height: 100vh;
     background-color: blue;
     color: #fff;
     margin-top: 50px;
 }
 
+#form .form-contents{
+    padding: 24px 15px;
+}
 .form-group{
     width: 60%;
 
-}
-
-#result{
-    min-height: 100vh;
 }
 
 .form-group{
     margin: 20px;
 }
 
-.form-group input{
+.form-group input[type=text]{
     width: 100%;
 }
+
+.form-group input[type=range]{
+    width: 100%;
+}
+
+/*********** Baseline, reset styles ***********/
+input[type="range"] {
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 25rem;
+}
+
+/* Removes default focus */
+input[type="range"]:focus {
+  outline: none;
+}
+
+/******** Chrome, Safari, Opera and Edge Chromium styles ********/
+/* slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: rgb(166, 166, 255);
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -4px; /* Centers thumb on the track */
+  background-color: #fff;
+  border-radius: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  outline: 3px solid #fff;
+  outline-offset: 0.125rem;
+}
+
+/*********** Firefox styles ***********/
+/* slider track */
+input[type="range"]::-moz-range-track {
+  background-color: rgb(98, 137, 255);
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+input[type="range"]::-moz-range-thumb {
+  background-color: #ffffff;
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+
+input[type="range"]:focus::-moz-range-thumb{
+  outline: 3px solid #ffffff;
+  outline-offset: 0.125rem;
+}
+
+.form-group .labels{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-group .labels label[name=label-right]{
+    text-align: right;
+}
+
+.form-group input[type=submit]{
+    font-family: Arial, "Helcetica Neue",
+    Helvetica, sans-serif;
+    background-color: #fff;
+    color: blue;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.form-group input[type=submit]:hover{
+    transform: scale(1.1);
+}
+
+#result{
+    min-height: 100vh;
+}
+
