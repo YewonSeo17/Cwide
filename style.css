@@ -62,7 +62,7 @@ body{
 }
 
 #nav .navBar a:hover{
-    background: #a6a6ff;
+    background: #6fa2f4;
 }
 
 #info{
@@ -88,7 +88,7 @@ body{
 }
 
 #form{
-    background-color: #0000ff;
+    background-color: #2977f4;
     color: #fff;
 }
 
@@ -128,7 +128,7 @@ input[type="range"]:focus {
 /******** Chrome, Safari, Opera and Edge Chromium styles ********/
 /* slider track */
 input[type="range"]::-webkit-slider-runnable-track {
-  background-color: #a6a6ff;
+  background-color: #6fa2f4;
   border-radius: 0.5rem;
   height: 0.5rem;
 }
@@ -152,7 +152,7 @@ input[type="range"]:focus::-webkit-slider-thumb {
 /*********** Firefox styles ***********/
 /* slider track */
 input[type="range"]::-moz-range-track {
-  background-color: #6289ff;
+  background-color: #6fa2f4;
   border-radius: 0.5rem;
   height: 0.5rem;
 }
@@ -185,7 +185,7 @@ input[type="range"]:focus::-moz-range-thumb{
     font-family: Arial, "Helcetica Neue",
     Helvetica, sans-serif;
     background-color: #fff;
-    color: #0000ff;
+    color: #2977f4;
     border-radius: 5px;
     border: 1px solid #fff;
     text-decoration: none;
