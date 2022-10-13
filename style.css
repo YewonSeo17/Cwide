@@ -62,7 +62,7 @@ body{
 }
 
 #nav .navBar a:hover{
-    background: rgb(166, 166, 255);
+    background: #a6a6ff;
 }
 
 #info{
@@ -88,7 +88,7 @@ body{
 }
 
 #form{
-    background-color: blue;
+    background-color: #0000ff;
     color: #fff;
 }
 
@@ -128,7 +128,7 @@ input[type="range"]:focus {
 /******** Chrome, Safari, Opera and Edge Chromium styles ********/
 /* slider track */
 input[type="range"]::-webkit-slider-runnable-track {
-  background-color: rgb(166, 166, 255);
+  background-color: #a6a6ff;
   border-radius: 0.5rem;
   height: 0.5rem;
 }
@@ -152,7 +152,7 @@ input[type="range"]:focus::-webkit-slider-thumb {
 /*********** Firefox styles ***********/
 /* slider track */
 input[type="range"]::-moz-range-track {
-  background-color: rgb(98, 137, 255);
+  background-color: #6289ff;
   border-radius: 0.5rem;
   height: 0.5rem;
 }
@@ -185,7 +185,7 @@ input[type="range"]:focus::-moz-range-thumb{
     font-family: Arial, "Helcetica Neue",
     Helvetica, sans-serif;
     background-color: #fff;
-    color: blue;
+    color: #0000ff;
     border-radius: 5px;
     border: 1px solid #fff;
     text-decoration: none;
@@ -201,5 +201,6 @@ input[type="range"]:focus::-moz-range-thumb{
 #result{
     min-height: 100vh;
     padding: 24px 15px;
+    border-top: solid 1px #000;
 }
 

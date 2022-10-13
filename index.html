@@ -6,6 +6,7 @@
     <title>Cwide</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" charset = "utf-8">
     <link rel="icon" type="image/x-icon" href="img/favicon.jpg"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,12 @@
             <div class="labels">
                 <label name="label-left">진보</label><label name="label-right">보수</label>
             </div>
-            <input type="range" name="ideology" min="0" max="100">
+            <label>Range From:</label>
+                <input type="range" name="ideology" min="0" max="10">
+                    <script>
+                        var fR = document.getElementById('fRange').innerHTML;
+                    </script>
+            <label id="fRange"></label>
         </div>
         <div class="form-group">
             <input type="submit" name="submit" value="submit">
